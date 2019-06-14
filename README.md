@@ -1,8 +1,8 @@
 # Funputer
 
-#### A counting webpage that returns silly statements for the numbers 1,2 and 3. 6/14/2019
+#### A counting webpage that returns silly statements for the numbers 1, 2 and 3. 6/14/2019
 
-#### By **Mike Lofgren**
+#### By **Mike Lofgren** https://mikearino.github.io/Week_3_code_review/
 
 ## Description
 
