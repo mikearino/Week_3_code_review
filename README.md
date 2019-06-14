@@ -1,6 +1,6 @@
 # Funputer
 
-#### A counting webpage that returns silly statements for the numbers 1,2 and 3. 6/12/2019
+#### A counting webpage that returns silly statements for the numbers 1,2 and 3. 6/14/2019
 
 #### By **Mike Lofgren**
 
