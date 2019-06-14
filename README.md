@@ -1,6 +1,6 @@
-# Beep Boop
+# Funputer
 
-#### A counting webpage that returns silly statements for numbers 1,2 and 3. 6/12/2019
+#### A counting webpage that returns silly statements for the numbers 1,2 and 3. 6/12/2019
 
 #### By **Mike Lofgren**
 
@@ -14,7 +14,7 @@ A user inputs a number. The program returns numbers counting from 0 to 1 to 2 to
 ### Specs
 | Spec                                                                         |   Input             |   Output                |
 | :--------------------------------------------------------------------------- | :------------------ | :---------------------- |
-| The program will only accept numbers.                                        | p                   |                         |
+| The program will only accept numbers.                                        | p                   | nothing                 |
 | If the user inputs zero, the program returns zero                            | 0                   | 0                       |
 | If the user inputs 1, the program will return 0, "Beep"                      | 1                   | 0, "Beep"               |
 | If the user inputs 2, the program will return 0, "Beep", "Boop"              | 2                   |0, "Beep", "Boop"        |
@@ -27,7 +27,7 @@ A user inputs a number. The program returns numbers counting from 0 to 1 to 2 to
 
 1. To run this program, clone repository from this GitHub.
 2. Open file in a web browser such as Google Chrome.
-3. Type a number and receive a return response on the screen.
+3. Type in a number and push submit to receive a return response on the screen.
 5. The bootstrap file should be under "css" folder of project and jQuery file should be under "js" directory.
 
 ## Known Bugs
@@ -47,4 +47,4 @@ If there are any questions, bugs or concerns, please contact mikeylofgren@gmail.
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **Mike Lofgren**
+Copyright (c) 2019 **Mike Lofgren**
