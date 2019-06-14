@@ -1,6 +1,6 @@
-# Pig Latin TranslatorBeep Boop
+# Beep Boop
 
-#### A counting webpage that returns silly statements when a number is inputted. 6/12/2019
+#### A counting webpage that returns silly statements for numbers 1,2 and 3. 6/12/2019
 
 #### By **Mike Lofgren**
 
@@ -8,14 +8,14 @@
 
 A webpage created with jQuery, CSS and HTML to return silly statements for certain numbers.
 This webpage utilizes jQuery with switch statements a loop and CSS styles to replace certain numbers.
-A user inputs a number. The program returns numbers counting from 0 to 1 to 2 to 3 and so on.
+A user inputs a number. The program returns numbers counting from 0 to 1 to 2 to 3 and so on. Once the number gets to one hundred Funputer runs out of batteries.
 
 
 ### Specs
 | Spec                                                                         |   Input             |   Output                |
 | :--------------------------------------------------------------------------- | :------------------ | :---------------------- |
 | The program returns nothing if the user does not input a number.             | p                   |                         |
-| The program returns a range of numbers from 0 to the users inputted number   | 4                   | 0,"Beep","Boop","i'm sorry Dave I'm afraid I can't do that",4                                    |                     
+| The program returns a range of numbers from 0 to the users inputted number   | 4                   | 0, "Beep", "Boop", "i'm sorry Dave I'm afraid I can't do that", |                                   |                     
 | User input is 5, the program returns   |                     |                         |
 
 

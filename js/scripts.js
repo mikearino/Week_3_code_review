@@ -6,7 +6,7 @@ $(document).ready(function(){
     // countArray.push(userNumber)
     roboCount(userNumber);
     var endResult = roboCheck(newArray);
-     $("#output").append(newArray + "<br>");
+     $("#output").text(newArray);
   })
 })
 
@@ -35,7 +35,7 @@ console.log("working")
       } else if (newArray[i] === 3 || newArray[i] === 13 || newArray[i] === 23 || newArray[i] === 33 || newArray[i] === 43 || newArray[i] === 53 || newArray[i] === 63 || newArray[i] === 73 || newArray[i] === 83 || newArray[i] === 93) {
         newArray[i] = (" I'm sorry, Dave. I'm afraid I can't do that.")
       } else if (newArray[i] >= 100) {
-        newArray[i] = (" Robo counters batteries are low")
+        newArray[i] = (" Funputers batteries are low")
       }
       //  finalArray.push(i)
       // console.log(i + userNumber)
