@@ -16,7 +16,7 @@ newArray = [ ]
 finalArray = []
 function roboCount(userNumber) {
 
-  for (var i=1; i <=userNumber; i++) {
+  for (var i=0; i <=userNumber; i++) {
        newArray.push(i)
       // console.log(i + userNumber)
        console.log(newArray)

@@ -14,9 +14,13 @@ A user inputs a number. The program returns numbers counting from 0 to 1 to 2 to
 ### Specs
 | Spec                                                                         |   Input             |   Output                |
 | :--------------------------------------------------------------------------- | :------------------ | :---------------------- |
-| The program returns nothing if the user does not input a number.             | p                   |                         |
-| The program returns a range of numbers from 0 to the users inputted number   | 4                   | 0, "Beep", "Boop", "i'm sorry Dave I'm afraid I can't do that", |                                   |                     
-| User input is 5, the program returns   |                     |                         |
+| The program will only accept numbers.                                        | p                   |                         |
+| If the user inputs zero, the program returns zero                            | 0                   | 0                       |
+| If the user inputs 1, the program will return 0, "Beep"                      | 1                   | 0, "Beep"               |
+| If the user inputs 2, the program will return 0, "Beep", "Boop"              | 2                   |0, "Beep", "Boop"        |
+| If the user inputs 3, the program will return 0, "Beep", "Boop", "I'm sorry Dave I can't do that" |    2 |  0, "Beep", "Boop", "I'm sorry Dave I can't do that" |               
+| If the user inputs 5, the program will return 0, "Beep", "Boop", "I'm sorry Dave I can't do that" | 5    |  0, "Beep", "Boop", "I'm sorry Dave I can't do that", 4, 5                                                                    |                     |                         |
+|If the user inputs a number higher than 1-9 the process will repeat itself to 100 | 55    | 50, "Beep", "Boop", "I'm sorry Dave I can't do that", 54 ,55
 
 
 ## Setup/Installation Requirements
