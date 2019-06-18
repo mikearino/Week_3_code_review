@@ -1,36 +1,52 @@
 $(document).ready(function(){
-  console.log("jQuery is working!")
+  // console.log("jQuery is working!")
   $("form#formOne").submit(function(event){
     event.preventDefault();
-    var userNumber = parseInt($("input#input").val());
-    roboCount(userNumber);
-    var endResult = roboCheck(newArray);
-    $("#output").text(newArray);
+    var userNumber = parseInt($("input#input").val());//33
+    var returnedArray =  roboCount(userNumber);//[0...33]
+
+    var mutatedArray = roboCheck(returnedArray);//mutated 0...33
+    $("#output").text(mutatedArray);
   })
-})
 
-newArray = [ ]
-finalArray = []
-function roboCount(userNumber) {
 
-  for (var i=0; i <=userNumber; i++) {
+
+function roboCount(num) {
+  var newArray = []
+
+  for (var i=0; i <=num; i++) {
     newArray.push(i)
-    console.log(newArray)
+    // console.log(newArray)
   }
+  return newArray
 };
 
 function roboCheck(newArray) {
 
-  console.log("working")
+  // console.log("working")
   for (var i=0; i < newArray.length; i++) {
-    if (newArray[i] === 1 || newArray[i] === 11 || newArray[i] === 21 || newArray[i] === 31 || newArray[i] === 41 || newArray[i] === 51 || newArray[i] === 61 || newArray[i] === 71 || newArray[i] === 81 || newArray[i] === 91) {
-      newArray[i] = (" Beep")
-    } else if (newArray[i] === 2 || newArray[i] === 12 || newArray[i] === 22 || newArray[i] === 32 || newArray[i] === 42 || newArray[i] === 52 || newArray[i] === 62 || newArray[i] === 72 || newArray[i] === 82 || newArray[i] === 92) {
-      newArray[i] = (" Boop!")
-    } else if (newArray[i] === 3 || newArray[i] === 13 || newArray[i] === 23 || newArray[i] === 33 || newArray[i] === 43 || newArray[i] === 53 || newArray[i] === 63 || newArray[i] === 73 || newArray[i] === 83 || newArray[i] === 93) {
-      newArray[i] = (" I'm sorry, Dave. I'm afraid I can't do that.")
-    } else if (newArray[i] >= 100) {
-      newArray[i] = (" Funputers batteries are low")
+    //newArray[i]=12
+    var numLength = newArray[i].toString().length;
+
+    for(var j=0; j< numLength; j++){
+      var num = newArray[i]
+      var digit = num[j]
+    //newArray[j]=1
+    //newArray[j]=2
+      if (newArray[j] === 1 ) {
+        newArray[i] = (" Beep")
+      } else if (newArray[j] === 2 ){
+        newArray[i] = (" Boop!")
+      } else if (newArray[j] === 3 ){
+        newArray[i] = (" I'm sorry, Dave. I'm afraid I can't do that.")
+      } else if (newArray[j] >= 100) {
+        newArray[i] = (" Funputers batteries are low")
+      }
     }
   }
+  return newArray
 };
+
+var experiment = roboCheck([12, 123, 456]);
+console.log(experiment);
+})
